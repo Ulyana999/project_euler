@@ -8,17 +8,13 @@ while (i < 10) {
     i++
     let a = Math.pow(i, 2)
     sum += a
+    while (q < 10) {
+        q++
+        sum2 += q
+        p = Math.pow(sum2, 2)
+    }
 }
-console.log(sum)
-
-
-while (q < 10) {
-    q++
-    sum2 += q
-    p = Math.pow(sum2, 2)
-}
-console.log(p)
-
 let differ = p - sum;
 
-console.log(`${differ}`)
+console.log(differ)
+
