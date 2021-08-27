@@ -22,15 +22,3 @@ console.log(p)
 let differ = p - sum;
 
 console.log(`${differ}`)
-
-
-
-
-
-
-
-// while (q < 10) {
-//     q++
-//     sum += q
-//     console.log(sum)
-// }
